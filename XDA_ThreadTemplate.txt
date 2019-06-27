@@ -1,0 +1,122 @@
+Title: [ROM][9.0][OFFICIAL][LA.UM.7.1.r1] Reloaded-CAF [DATE]
+
+
+[CENTER][CODE]/*
+ * Your warranty is now maybe void.
+ *
+ * We are not responsible for bricked devices, dead SD cards, thermonuclear
+ * war, or you getting fired because the alarm app failed. Please do some
+ * research if you have any concerns about features included in this ROM
+ * before flashing it! YOU are choosing to make these modifications, and if
+ * you point the finger at us for messing up your device, we will laugh at you.
+ *
+ */[/CODE][/CENTER]
+
+[SIZE="4"][B][U]About Project[/U][/B][/SIZE]
+Reloaded-CAF is a Custom ROM which is based on CAF. The main aim of this ROM is to bring stock AOSP experience as much as possible while maintaining performance, smoothness and good battery backup. I hope that you'll all love this project, and help us, shape it even better. Meanwhile, all of our sources are publicly available on our Github. Hope you enjoy your stay and like our work on Reloaded-CAF. We did add some features to improve the overall experience. 
+
+[SIZE="4"][B][U]What's CAF?[/U][/B][/SIZE]
+Code Aurora Forum (CAF) is a consortium of companies with projects serving the mobile wireless industry. Software projects it concerns itself with are e.g. Android for MSM, Femto Linux Project, LLVM, MSM WLAN, and Linux-MSM. Code Aurora is basically AOSP + Qualcomm specific enhancements and optimization.
+
+[SIZE="4"][B][U]Features:[/U][/B][/SIZE]
+
+* [B]Buttons[/B]
+Enable/disable navbar
+Invert navbar keys
+Volume key wake
+Volume key music control
+
+* [B]Status bar[/B]
+Battery style options
+Clock customizations
+4G/LTE toggle
+VoLTE icon toggle
+Quick pulldown
+Network Traffic Indicator
+QS row/column settings
+
+* [B]Lights[/B]
+Battery lights/Notification lights toggle
+LED pulse when battery low toggle
+
+* [B]Display[/B]
+System-wide dark mode
+Accents color options
+Proximity check on wake
+Double tap to sleep on statusbar and lockscreen
+
+* [B]Sound and vibration[/B]
+In-call vibration options
+Ringtone chooser for 2nd sim card
+Fingerprint authentication vibration
+Screenshot sound toggle
+Toggle for silent notifications while screen on
+
+* [B]Security[/B]
+Advanced Reboot menu
+AppOps
+
+* [B]Lockscreen[/B]
+Disable qs on secure lock screen
+Pin quick unlock
+Auto Face unlock
+Charging info
+
+* [B]QS Tiles[/B]
+Power
+Sync
+Heads up
+Caffeine
+Screenshot
+
+* [B]Gestures[/B]
+3 Finger swipe for screenshot
+
+[SIZE="4"][B][U]What's working :[/U][/B]
+[/SIZE][LIST]
+[*]Boots
+[*]RIL (Calls, SMS, Data)
+[*]Fingerprint
+[*]Wi-Fi
+[*]Bluetooth
+[*]Camera
+[*]Camcorder
+[*]Video Playback
+[*]Audio
+[*]Sensors
+[*]Flash
+[*]LED
+[*]GPS
+[*]Volte.
+[*]IR camera
+[/LIST]
+
+[B][U][SIZE="4"]Known issues:[/SIZE][/U][/B]
+[LIST]
+[*] You tell me
+[/LIST]
+
+[B][U][SIZE="4"]Instructions :[/SIZE][/U][/B]
+[LIST]
+[*]Download the latest build and GApps
+[*]Reboot to recovery and wipe system, data, cache, dalvik
+[*]Flash Pie vendor and Firmware, if you are on oreo vendor
+[*]Flash the latest build and Gapps 
+[*]Flash DisableForceEncryption (optional)
+[*]Flash magisk, if you want root access (optional)
+[*]Reboot
+[/LIST]
+
+[B][U][SIZE="4"]Downloads :[/SIZE][/U][/B]
+[LIST] 
+[*] Reloaded-CAF: [url]https://reloadedrom.com/device/device[/url]
+[*] OpenGapps [arm64/9.0]: [url]https://opengapps.org/[/url]
+[/LIST]
+
+[B][U][SIZE="4"] Telegram: [/SIZE][/U][/B]
+[LIST][url=https://t.me/reloadedrom]Reloaded Telegram Channel[/url][/LIST]
+[LIST][url=https://t.me/reloadedchat]Reloaded Telegram Group[/url][/LIST]
+
+[B][U][SIZE="4"]FAQ[/SIZE][/U][/B]
+[B][U]Why is the security patch older than the latest AOSP patch?[/U][/B]
+CAF focus on delivering the latest hardware patches and are usually about a month behind Google on security patches, on the other hand, Google is usually a month or more behind on them on caf patches (sometimes months). No point in complaining about it, if you want the latest security patch, go with an AOSP based rom (like LineageOS),  if you want latest Qualcomm optimizations for our hardware as well as fixes, go with caf, it's as simple as that.
