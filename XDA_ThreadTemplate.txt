@@ -1,7 +1,7 @@
-Title: [ROM][10.0][OFFICIAL][LA.UM.8.1.r1] ReloadedOS [DATE]
+Title: [ROM][13.0][OFFICIAL][LA.QSSI.13.0.r1] ReloadedOS [DATE]
 
 [CENTER]
-[IMG]https://i.imgur.com/i5KSYz6.png[/IMG]
+[IMG]https://i.imgur.com/z94mN39.jpg[/IMG]
 [CODE]/*
  * Your warranty is now maybe void.
  *
@@ -14,10 +14,10 @@ Title: [ROM][10.0][OFFICIAL][LA.UM.8.1.r1] ReloadedOS [DATE]
  */[/CODE][/CENTER]
 
 [SIZE="4"][B][U]About Project[/U][/B][/SIZE]
-ReloadedOS is an Android Custom ROM which is based on CAF. The main aim of this ROM is to bring stock AOSP experience as much as possible while maintaining performance, smoothness and good battery backup. I hope that you'll all love this project, and help us, shape it even more better. Meanwhile, all of our sources are publicly available on our Github. Hope you enjoy your stay and like our work on ReloadedOS. We did add some features to improve the overall experience.
+ReloadedOS is an Android Custom ROM which is based on CLO. The main aim of this ROM is to bring stock AOSP experience as much as possible while maintaining performance, smoothness and good battery backup. I hope that you'll all love this project, and help us, shape it even more better. Meanwhile, all of our sources are publicly available on our Github. Hope you enjoy your stay and like our work on ReloadedOS. We did add some features to improve the overall experience.
 
-[SIZE="4"][B][U]What's CAF?[/U][/B][/SIZE]
-Code Aurora Forum (CAF) is a consortium of companies with projects serving the mobile wireless industry. Software projects it concerns itself with are e.g. Android for MSM, Femto Linux Project, LLVM, MSM WLAN, and Linux-MSM. Code Aurora is basically AOSP + Qualcomm specific enhancements and optimization.
+[SIZE="4"][B][U]What's CLO?[/U][/B][/SIZE]
+Code Linaro OSS (CLO) is a consortium of companies with projects serving the mobile wireless industry. Software projects it concerns itself with are e.g. Android for MSM, Femto Linux Project, LLVM, MSM WLAN, and Linux-MSM. Code Aurora is basically AOSP + Qualcomm specific enhancements and optimization.
 
 [SIZE="4"][B][U]What's working :[/U][/B]
 [/SIZE][LIST]
@@ -45,7 +45,7 @@ Code Aurora Forum (CAF) is a consortium of companies with projects serving the m
 
 [B][U][SIZE="4"]Instructions :[/SIZE][/U][/B]
 [LIST]
-[*]Download the latest build and GApps
+[*]Download the latest build
 [*]Reboot to recovery and wipe system, data, cache, dalvik
 [*]Flash magisk, if you want root access (optional)
 [*]Reboot
@@ -54,7 +54,6 @@ Code Aurora Forum (CAF) is a consortium of companies with projects serving the m
 [B][U][SIZE="4"]Downloads :[/SIZE][/U][/B]
 [LIST] 
 [*] ReloadedOS: [url]https://reloadedos.org/device[/url]
-[*] Gapps: [url]https://opengapps.org/[/url]
 [/LIST]
 
 [B][U][SIZE="4"] Telegram Groups: [/SIZE][/U][/B]
@@ -63,5 +62,5 @@ Code Aurora Forum (CAF) is a consortium of companies with projects serving the m
 
 [B][U][SIZE="4"]FAQ[/SIZE][/U][/B]
 [B][U]Why is the security patch older than the latest AOSP patch?[/U][/B]
-CAF focus on delivering the latest hardware patches and are usually about a month behind Google on security patches, on the other hand, Google is usually a month or more behind on them on caf patches (sometimes months). No point in complaining about it, if you want the latest security patch, go with an AOSP based rom (like LineageOS),  if you want latest Qualcomm optimizations for our hardware as well as fixes, go with caf, it's as simple as that.
+CLO focus on delivering the latest hardware patches and are usually about a month behind Google on security patches, on the other hand, Google is usually a month or more behind on them on CLO patches (sometimes months). No point in complaining about it, if you want the latest security patch, go with an AOSP based rom (like LineageOS),  if you want latest Qualcomm optimizations for our hardware as well as fixes, go with CLO, it's as simple as that.
 
